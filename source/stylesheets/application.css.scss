@@ -99,6 +99,10 @@ h1, h2, p {
 }
 
 .section-header {
+  a {
+    color: #FFF;
+    text-decoration: underline;
+  }
   @extend %group;
   max-width: rem(1200px);
   margin: 0 auto;
